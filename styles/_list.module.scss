@@ -1,0 +1,28 @@
+.arti {
+  h2 {
+    font-size: 5rem;
+  }
+  ul {
+    margin: 0;
+    padding: 30px;
+    width: 500px;
+    background-color: pink;
+    border-radius: 20px;
+    li {
+      font-size: 1.2rem;
+      &:first-child {
+        border-top: 1px solid #000;
+      }
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      button {
+        margin-left: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+    }
+  }
+}

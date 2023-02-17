@@ -1,0 +1,30 @@
+.div {
+  width: 100%;
+  padding-top: 200px;
+  form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+
+    p {
+      display: block;
+      &:first-child {
+        border-top: 1px solid #000;
+      }
+      margin: 0 auto;
+      padding-top: 10px;
+      input {
+        box-sizing: border-box;
+        width: 100%;
+      }
+    }
+    div {
+      padding-top: 20px;
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
